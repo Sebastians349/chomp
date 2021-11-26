@@ -11,7 +11,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 mercadopago.configure({
   // este es el usuario q vende , la cuenta el de producccion
   access_token:
-    "APP_USR-6623451607855904-111502-1f258ab308efb0fb26345a2912a3cfa5-672708410",
+    "APP_USR-4684267517373888-112620-105c517fb870120a0d0a1960fcd19138-1027263712",
+  // esta es la que va de la prueba anterior
+  // "APP_USR-327784668252270-111502-2ac20dc1d5088b2e30bb07d2bfef4cbf-672708481",
 });
 
 // rutas
