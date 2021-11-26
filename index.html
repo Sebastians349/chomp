@@ -29,8 +29,10 @@
                         <hr>
                         <h4>Precio $1250</h4>
                         <div>
-                            <form action="">
-                                <input type="submit " value="comprar ahora" class="btn btn-primary btn-block mt-4">
+                            <form action="http://localhost:3000/checkout" method="post">
+                                <input type="hidden" name="title" value="Planner mensual imantado">
+                                <input type="hidden" name="price" value="1250">
+                                <input type="submit" value="comprar ahora" class="btn btn-primary btn-block mt-4">
                             </form>
                         </div>
                     </div>
